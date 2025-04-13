@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/InicioFragment">
+
+    <fragment
+        android:id="@+id/InicioFragment"
+        android:name="com.example.tallertiendavirtual.fragments.InicioFragment"
+        android:label="@string/inicio"
+        app:defaultNavHost="true"/>
+
+    <fragment
+        android:id="@+id/ProdcutosFragment"
+        android:name="com.example.tallertiendavirtual.fragments.ProductosFragment"
+        android:label="@string/productos"/>
+
+    <fragment
+        android:id="@+id/CarritoFragment"
+        android:name="com.example.tallertiendavirtual.fragments.CarritoFragment"
+        android:label="@string/carrito"/>
+
+    <fragment
+        android:id="@+id/PerfilFragment"
+        android:name="com.example.tallertiendavirtual.fragments.PerfilFragment"
+        android:label="@string/perfil"/>
+
+    <fragment
+        android:id="@+id/CategoriasFragment"
+        android:name="com.example.tallertiendavirtual.fragments.CategoriasFragment"
+        android:label="@string/categorias"/>
+
+</navigation>
